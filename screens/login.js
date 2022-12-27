@@ -30,7 +30,7 @@ function Logins({ navigation }) {
   const [email, setemail] = useState("");
   const [password, setpass] = useState("");
   async function userlogin(value) {
-    fetch("http://127.0.0.1:8000/api/apilogin", {
+    fetch("https://www.haykaytelecoms.com.ng/api/apilogin", {
       method: "POST",
       headers: {
         Accept: "application/json",
